@@ -1,0 +1,53 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoMonitor.Api", "CryptoMonitor.Api\CryptoMonitor.Api.csproj", "{93C2C1E2-AFE4-CF92-F51E-4F9452614D14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoMonitor.Core", "CryptoMonitor.Core\CryptoMonitor.Core.csproj", "{80CF1AD4-2240-969D-B92E-39384E574E63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoMonitor.Infrastructure", "CryptoMonitor.Infrastructure\CryptoMonitor.Infrastructure.csproj", "{1BD27F39-998C-4CE0-1CB9-EF8D2B5321B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoMonitor.Services", "CryptoMonitor.Services\CryptoMonitor.Services.csproj", "{F0A82AB6-2248-19C0-1963-20AD6ACEB10E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoMonitor.UnitTests", "tests\CryptoMonitor.UnitTests\CryptoMonitor.UnitTests.csproj", "{51DA96F0-F061-22E4-2456-D4CB3C085F83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93C2C1E2-AFE4-CF92-F51E-4F9452614D14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C2C1E2-AFE4-CF92-F51E-4F9452614D14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C2C1E2-AFE4-CF92-F51E-4F9452614D14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C2C1E2-AFE4-CF92-F51E-4F9452614D14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80CF1AD4-2240-969D-B92E-39384E574E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80CF1AD4-2240-969D-B92E-39384E574E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80CF1AD4-2240-969D-B92E-39384E574E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80CF1AD4-2240-969D-B92E-39384E574E63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BD27F39-998C-4CE0-1CB9-EF8D2B5321B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD27F39-998C-4CE0-1CB9-EF8D2B5321B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD27F39-998C-4CE0-1CB9-EF8D2B5321B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD27F39-998C-4CE0-1CB9-EF8D2B5321B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0A82AB6-2248-19C0-1963-20AD6ACEB10E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0A82AB6-2248-19C0-1963-20AD6ACEB10E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0A82AB6-2248-19C0-1963-20AD6ACEB10E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0A82AB6-2248-19C0-1963-20AD6ACEB10E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51DA96F0-F061-22E4-2456-D4CB3C085F83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51DA96F0-F061-22E4-2456-D4CB3C085F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51DA96F0-F061-22E4-2456-D4CB3C085F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51DA96F0-F061-22E4-2456-D4CB3C085F83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51DA96F0-F061-22E4-2456-D4CB3C085F83} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8D644D7-E846-403A-9CDA-42872ED1CB07}
+	EndGlobalSection
+EndGlobal

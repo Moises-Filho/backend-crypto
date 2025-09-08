@@ -1,0 +1,6 @@
+@CryptoMonitor.Api_HostAddress = http://localhost:5273
+
+GET {{CryptoMonitor.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
