@@ -1,0 +1,57 @@
+## ---- .NET / C# ----
+
+# Build
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+
+# Logs
+*.log
+*.tlog
+*.svclog
+logs/
+
+# Usuário / IDE
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+*.rsuser
+
+# Configs locais (não versionar credenciais!)
+appsettings.Development.json
+appsettings.*.Local.json
+
+# Testes
+*.coverage
+*.coveragexml
+*.testsettings
+TestResult*/
+TestResults/
+
+# Ferramentas de análise
+*.ncrunchsolution
+*.ncrunchproject
+nCrunchTemp_*
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Rider / JetBrains
+.idea/
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# Docker
+**/docker-compose.override.yml
+
+# Outros
+*.dbmdl
+*.jfm
